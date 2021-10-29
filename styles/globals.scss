@@ -15,7 +15,8 @@ body {
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
-  }
+  scroll-behavior: smooth;
+                                }
 
 a {
   color: inherit;
@@ -759,6 +760,8 @@ button{
   padding: 10px;
    overflow-y: scroll; 
   padding-bottom: 150px;
+  scroll-behavior: smooth;
+
   overflow-x: hidden;
 }
 

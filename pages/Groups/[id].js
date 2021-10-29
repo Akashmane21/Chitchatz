@@ -336,7 +336,9 @@ window.location.reload()
 }
 
 function Down(){
-  alert("Down")
+
+  var myDiv = document.getElementById("msgs");
+  myDiv.scrollTop = myDiv.scrollHeight+100;
 }
 
 
