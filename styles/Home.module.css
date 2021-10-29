@@ -1,0 +1,116 @@
+.main{
+  /* background-image: url("https://techvines.in/assets/images/bg-700.png"); */
+  background-size: cover;
+  height: 100vh;
+  margin: 0px;
+  /* padding: 20px; */
+  
+}
+@media (min-width: 765px) {
+  .main{
+    padding-left: 60px;
+    }
+  }
+
+
+.p{
+  margin: 0px;
+}
+
+.block{
+  display: flex;
+}
+
+.chat{
+ background-color: #f4faff; 
+ height: 100vh;
+ overflow-y: scroll;
+}
+
+.area{
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: rgb(236, 236, 236); 
+ }
+
+
+ .chatpage{
+  background-color: #eeebeb; 
+  /* padding: 20px; */
+  height: 100vh;
+  overflow-y: scroll;
+ }
+ 
+ .areapage{
+   height: 100vh;
+   overflow-y: scroll;
+   background-color: rgb(236, 236, 236); 
+  }
+
+  .arrow{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 80px 20px 40px 100px;
+    /* background-color: rgb(243, 10, 10); */
+    padding: 10px;
+  }
+ 
+
+  .arrow>i{
+    color: gray;
+    font-size: 28px;
+  }
+ @media (min-width: 765px) {
+  
+.chat{
+  width: 30%;
+  /* padding: 20px; */
+
+ }
+
+ .area{
+   width: 70%;
+  
+  }
+ .chatpage{
+  width: 30%;
+  
+ }
+ 
+ .areapage{
+   width: 70%;
+  
+  }
+  }
+
+  @media (max-width: 765px) {
+    .groupheader{
+      display: none;
+    }
+    
+    .chatpage{
+   display: none;
+     
+    }
+    
+    .areapage{
+      width: 100%;
+     }
+     
+.chat{
+  width: 100%;
+ 
+ }
+     
+ .area{
+  display: none;
+ 
+ }
+     }
+
+
+
+ .Scroll{
+   
+ }

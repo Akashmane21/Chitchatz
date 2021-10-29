@@ -1,0 +1,136 @@
+.header{
+    position: fixed;
+    
+    left: 0;
+    height: 100vh;
+    padding: 10px;
+    width: 70px;
+    background-color: #063238;
+    transition: 0.5s width;
+    overflow: hidden;
+  }
+
+  .header:hover{
+      width: 200px;
+      cursor: pointer;
+
+  }
+
+  .icons{
+      /* display: flex; */
+      width: 62px;
+/* overflow: hidden; */
+transition: 0.5s width;
+
+color: white;
+
+  }
+
+
+
+  .label{
+      margin-top: 150px;
+
+  }
+  .label{
+      
+    h3{
+      display: flex;
+      align-items: center;
+      padding: 8px;
+      padding-left: 10px;
+      font-size: 20px;
+width: 60px;
+transition: 0.2s width;
+border-bottom: 2px solid rgba(255, 0, 0, 0);
+
+}
+
+  }
+  .label>h3:hover{
+  width: 150px;
+    background-color: rgba(170, 166, 166, 0.192);
+    // border-radius: 10px;
+    border-bottom: 2px solid rgb(68, 0, 255);
+
+}
+ .label>h3>i{
+     margin-right: 30px;
+     font-size: 25px;
+     color: rgb(228, 228, 228);
+
+  }
+  .logout{
+      margin-top: 100px;
+      background-color: rgba(255, 68, 0, 0.521);
+      padding: 40px;
+    //   border-radius: 10px;
+  }
+
+
+  .Profile{
+      display: flex;
+      img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+    .info{
+        h3{
+            font-size: 20px;
+            margin-left: 20px;
+        }
+    }
+  }
+.Mobnav{
+    position: fixed;
+  display: flex;
+  justify-content: space-between;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    // background-color: #131313;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    // margin: 10px;
+    padding: 10px 50px;
+    // border-radius: 10px;
+    align-items: center;
+    svg{
+       
+        // stroke:rgb(95, 95, 95);
+        transition: 1s stroke ;
+
+        &:hover{
+            stroke: orangered;
+            cursor: pointer;
+        }
+    }
+
+    i{
+            font-size: 20px;
+            // transition: 1s color ;
+            &:hover{
+                color: orangered;
+                cursor: pointer;
+            }
+    }
+   
+}
+ 
+// For Mobile View
+@media (max-width: 765px) {
+.container{
+    display: none;
+}
+}
+// For De4sktop View
+@media (min-width: 765px) {
+.Mobnav{
+    display: none;
+}
+}

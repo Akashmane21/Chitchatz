@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+
+.Meet{
+    height: 95vh;
+    overflow-y: scroll;
+    background-color: #f4faff;
+    // background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='555' preserveAspectRatio='none' viewBox='0 0 1440 555'%3e%3cg mask='url(%26quot%3b%23SvgjsMask4913%26quot%3b)' fill='none'%3e%3crect width='1440' height='555' x='0' y='0' fill='url(%23SvgjsLinearGradient4914)'%3e%3c/rect%3e%3crect width='240' height='240' clip-path='url(%26quot%3b%23SvgjsClipPath4915%26quot%3b)' x='287.72' y='168.95' fill='url(%23SvgjsPattern4916)' transform='rotate(130.79%2c 407.72%2c 288.95)'%3e%3c/rect%3e%3cpath d='M898.39 244.86L900.98 257.41 889.32 262.69 891.91 275.23 880.24 280.51 882.83 293.05 871.16 298.33M891.26 241.23L893.85 253.78 882.19 259.06 884.78 271.6 873.11 276.88 875.7 289.42 864.03 294.7M884.14 237.6L886.73 250.14 875.06 255.42 877.65 267.97 865.98 273.25 868.57 285.79 856.91 291.07' stroke='%23e73635' stroke-width='2.44' stroke-dasharray='4%2c 4'%3e%3c/path%3e%3cpath d='M83.92 74.84L96.22 78.38 95.48 91.16 107.78 94.7 107.04 107.48 119.34 111.02 118.6 123.8M77.39 79.47L89.7 83 88.95 95.79 101.26 99.32 100.51 112.11 112.82 115.64 112.07 128.43' stroke='%23037b0b' stroke-width='2.94' stroke-dasharray='2%2c 2'%3e%3c/path%3e%3ccircle r='78.68258021031951' cx='895.98' cy='194.32' fill='%23e73635'%3e%3c/circle%3e%3cpath d='M237.15 469.38L232.66 481.38 219.97 479.63 215.49 491.63 202.8 489.88 198.31 501.88 185.63 500.13M233.05 462.51L228.56 474.51 215.87 472.76 211.39 484.76 198.7 483.01 194.21 495.01 181.53 493.26' stroke='%23037b0b' stroke-width='1.87'%3e%3c/path%3e%3cpath d='M320.90999999999997 130.52 L156.76 126.2L163.44471840832392 203.75028159167607z' stroke='%23037b0b' stroke-width='1' stroke-dasharray='2%2c 2'%3e%3c/path%3e%3ccircle r='46.25' cx='1163.4' cy='45.04' stroke='%23d3b714' stroke-width='1.93'%3e%3c/circle%3e%3cpath d='M1155.9 164.48a5.6 5.6 0 1 0-4.63 10.19 5.6 5.6 0 1 0 4.63-10.19zM1149.28 179.04a5.6 5.6 0 1 0-4.63 10.2 5.6 5.6 0 1 0 4.63-10.2zM1142.66 193.61a5.6 5.6 0 1 0-4.63 10.2 5.6 5.6 0 1 0 4.63-10.2zM1136.05 208.18a5.6 5.6 0 1 0-4.64 10.2 5.6 5.6 0 1 0 4.64-10.2zM1154.57 128.72a5.6 5.6 0 1 0-4.64 10.2 5.6 5.6 0 1 0 4.64-10.2zM1147.95 143.29a5.6 5.6 0 1 0-4.63 10.2 5.6 5.6 0 1 0 4.63-10.2zM1141.33 157.86a5.6 5.6 0 1 0-4.63 10.2 5.6 5.6 0 1 0 4.63-10.2zM1134.71 172.43a5.6 5.6 0 1 0-4.63 10.19 5.6 5.6 0 1 0 4.63-10.19zM1153.23 92.97a5.6 5.6 0 1 0-4.63 10.2 5.6 5.6 0 1 0 4.63-10.2zM1146.62 107.54a5.6 5.6 0 1 0-4.64 10.2 5.6 5.6 0 1 0 4.64-10.2zM1140 122.11a5.6 5.6 0 1 0-4.63 10.19 5.6 5.6 0 1 0 4.63-10.19zM1133.38 136.67a5.6 5.6 0 1 0-4.63 10.2 5.6 5.6 0 1 0 4.63-10.2z' stroke='%23d3b714' stroke-width='2.51' stroke-dasharray='3%2c 3'%3e%3c/path%3e%3ccircle r='66.04056128051798' cx='369.77' cy='134.81' fill='%23037b0b'%3e%3c/circle%3e%3ccircle r='46.25' cx='1432.82' cy='167.49' stroke='%23e73635' stroke-width='2.26'%3e%3c/circle%3e%3ccircle r='46.25' cx='1438.97' cy='8.73' stroke='%23e73635' stroke-width='1' stroke-dasharray='3%2c 3'%3e%3c/circle%3e%3cpath d='M713.71 165.09a5.6 5.6 0 1 0 10.14-4.75 5.6 5.6 0 1 0-10.14 4.75zM728.2 158.3a5.6 5.6 0 1 0 10.14-4.75 5.6 5.6 0 1 0-10.14 4.75zM742.68 151.51a5.6 5.6 0 1 0 10.15-4.75 5.6 5.6 0 1 0-10.15 4.75zM757.17 144.72a5.6 5.6 0 1 0 10.14-4.75 5.6 5.6 0 1 0-10.14 4.75zM691.52 193.16a5.6 5.6 0 1 0 10.14-4.75 5.6 5.6 0 1 0-10.14 4.75zM706.01 186.37a5.6 5.6 0 1 0 10.14-4.75 5.6 5.6 0 1 0-10.14 4.75zM720.5 179.58a5.6 5.6 0 1 0 10.14-4.75 5.6 5.6 0 1 0-10.14 4.75zM734.99 172.79a5.6 5.6 0 1 0 10.14-4.75 5.6 5.6 0 1 0-10.14 4.75zM669.34 221.23a5.6 5.6 0 1 0 10.14-4.76 5.6 5.6 0 1 0-10.14 4.76zM683.82 214.44a5.6 5.6 0 1 0 10.15-4.76 5.6 5.6 0 1 0-10.15 4.76zM698.31 207.65a5.6 5.6 0 1 0 10.14-4.76 5.6 5.6 0 1 0-10.14 4.76zM712.8 200.86a5.6 5.6 0 1 0 10.14-4.76 5.6 5.6 0 1 0-10.14 4.76z' stroke='%23e73635' stroke-width='1.29' stroke-dasharray='4%2c 4'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask4913'%3e%3crect width='1440' height='555' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.36%25' y1='-39.86%25' x2='84.64%25' y2='139.86%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient4914'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cpattern x='0' y='0' width='240' height='10' patternUnits='userSpaceOnUse' id='SvgjsPattern4916'%3e%3crect width='240' height='5' x='0' y='0' fill='%23e73635'%3e%3c/rect%3e%3crect width='240' height='5' x='0' y='5' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath4915'%3e%3ccircle r='60' cx='407.72' cy='288.95'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+    padding: 20px;
+    padding-bottom: 80px;
+    h5{
+      font-size: 25px;
+      color: #000000;
+      // border-radius: 15px;
+      padding-right: 20px;
+     background-color: #fff;
+border-left: 2px solid #f2971d;
+padding: 15px;
+}
+}
+
+.Meet_block{
+ 
+  img{
+    height: 300px;
+  }
+  // background-color: rgb(185, 9, 9);
+  .Meet_area{
+    // background-color: red;
+
+  }
+}
+
+
+.Meet_buttons{
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 20px;
+
+  h2{
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding: 0px;
+      margin: 0px;
+      color: #3e17aa;
+  }
+    &:hover{
+      cursor: pointer;
+      box-shadow: 0px 8px 30px -10px rgb(168, 168, 168);
+  }
+}
+
+.Meet_buttons:nth-child(1){
+  background-color: #3e17aa;
+  h2{
+  
+    color: #ffffff;
+
+}
+}
+.Meet_buttons:nth-child(2){
+  // border:1px solid  rgba(59, 40, 110, 0.301);
+}
+.formblock{
+  h1{
+    font-size: 20px;
+    // text-transform: uppercase;
+    color: #0084ff;
+    padding: 10px;
+    padding-left: 10px;
+    background-color: rgba(103, 82, 199, 0.089);
+    border-left: 4px solid #0084ff;
+  }
+}
+
+
+.form{
+  background-color: #fff;
+  padding: 10px;
+  padding-bottom: 30px;
+  margin: 10px;
+  line-height: 20px;
+  
+ 
+  form{
+    margin-top: 20px;
+   h6{
+     color: rgb(182, 93, 93);
+     margin-top: 20px;
+   }
+    input{
+
+    
+      border: 0px;
+      border-bottom: 0.5px solid rgb(219, 216, 216);
+      padding: 8px 3px;
+      margin-bottom: 20px;
+      outline: 0px;
+    }
+ 
+   
+    button{
+     
+      margin-top: 20px;
+      outline: 0px;
+      box-shadow: 0px 1px 5px 0px #f4faff;
+      border-radius: 4px;
+      padding: 7px 20px;
+      transition: 0.5s background-color;
+      width: 100px;
+     
+     
+    }
+
+   
+    
+
+  }
+}
+ 
+  
+.flex{
+  display: flex;
+}
+
+.joinbtn{
+  button{
+    background-color: #0084ff;
+    color: white;  
+    border: 1px solid #0084ff00;
+    &:hover{
+      background-color: rgba(2, 173, 252, 0.486);
+      color: #000000;
+    }  
+    
+  }
+}
+.Cancelbtn{
+  button{ 
+    background-color: #ffffff;
+    color: rgb(255, 1, 1);
+    border: 1px solid #b4b4b400;
+    margin-right: 20px;
+
+    &:hover{
+      background-color: #fc020221;
+      border: 1px solid #fc020200;
+
+    }  
+  }
+
+  
+}
+
+@media (min-width: 765px) {
+
+  .form{
+padding: 20px;
+padding-right: 300px;
+  }
+  .Meet{
+    padding: 50px;
+    padding-left: 80px;
+   
+  }
+  .Meet_block{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.Meet_buttons{
+  padding:  20px;
+  h2{
+font-size: 30px;
+}
+}
+}
+
+@media (max-width: 765px) {
+  .Meet_buttons{
+    padding: 10px;
+    h2{
+       font-size: 20px;
+     }
+  }
+  .Meet_area{
+    margin-top: 50px;
+  }
+.Meet_block{
+ 
+  margin-top: 70px;
+ 
+  img{
+    margin-left: 30px;
+    height: 200px;
+  }
+}
+}
